@@ -70,8 +70,8 @@ def extract_product_details(product_url):
 
 # Function to send product data to Telegram
 def send_product_data_to_telegram(product_name, product_status, image_url, product_link):
-    bot_token = "6958486146:AAFtYb_TaInJtSSFevXDn39BCssCzj4inV4"
-    chat_id = "-1002175935286"
+    bot_token = "7288675008:AAEuvumaPpNNbnHMJfVEPYTBVKxFjLPJwl8"
+    chat_id = "-1002196581688"
     telegram_api_url = f"https://api.telegram.org/bot{bot_token}/sendPhoto"
     message_text = f"Product Name: {product_name}\nProduct Status: {product_status}"
     
